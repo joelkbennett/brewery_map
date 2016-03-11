@@ -1,0 +1,25 @@
+{
+  "name": "van_beer_map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Bennett",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "google-maps": "^3.2.1",
+    "jquery": "^2.2.1",
+    "mustache": "^2.2.1",
+    "normalize.css": "^3.0.3",
+    "request": "^2.69.0",
+    "skeleton.css": "^2.0.4"
+  }
+}

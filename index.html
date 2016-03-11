@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VanBeerMap</title>
+</head>
+<!-- <link rel="stylesheet" href="dist/app.css"> -->
+<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="/css/skeleton.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,900,300italic,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/css/app.css">
+<body>
+
+  <section id="map"></section>
+
+  <section id="sidebar">
+    <div class="sidebar-inner">
+      <h1 class='site-title'><span>VanBeer</span>Map</h1>
+      <form id='brewery-search'>
+        <label for='brewery-city' class='sr-only'>City</label>
+        <input type='text' id='brewery-city' class='u-full-width' name='brewery-city' placeholder='City'></input>
+        <label for='brewery-country' class='sr-only'>Country</label>
+        <input type='text' id='brewery-country' class='u-full-width' name='brewery-country' placeholder='Country'></input>
+        <button type='submit' class='button-primary'>Search</button>
+        <a href="" class='github-link'> &raquo;&nbsp; Check out the project on github</a>
+      </form>
+    </div>
+
+    <div class="search-history">
+      <h2>Search History</h2>
+    </div>
+  </section>
+
+<script src='/dist/build.js'></script>
+</body>
+</html>
